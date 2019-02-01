@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fdfafa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <!--  -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/bghome2"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imgBanner"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relaDataUser"
+        android:layout_below="@+id/imgBanner"
+        android:padding="30dp"
+        android:background="#00E676">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/akun_new"
+            android:id="@+id/imgAkun"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNama"
+            android:textSize="22sp"
+            android:text="Nama"
+            android:textStyle="bold"
+            android:textColor="#E0F7FA"
+            android:layout_toRightOf="@+id/imgAkun"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEmail"
+            android:textSize="17sp"
+            android:text="Email"
+            android:textColor="#E0F7FA"
+            android:layout_toRightOf="@+id/imgAkun"
+            android:layout_below="@+id/txtNama"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lineGrid1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/relaDataUser"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.3">
+
+            <ImageButton
+                android:id="@+id/RSUD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="0dp"
+                android:background="#00000000"
+                android:onClick="firstImageButton"
+                android:src="@mipmap/ic1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/titleRS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/RSUD"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text="RSUD"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20px"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.3">
+
+        <ImageButton
+            android:id="@+id/Kuliner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:src="@mipmap/ic4" />
+
+        <TextView
+            android:id="@+id/titlekuliner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="KULINER"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.3">
+
+        <ImageButton
+            android:id="@+id/Shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:background="#00000000"
+            android:src="@mipmap/ic7" />
+
+        <TextView
+            android:id="@+id/titleRS2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="BELANJA"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+     </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lineGrid2"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lineGrid1"
+        android:layout_marginTop="30dp"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.3">
+
+        <ImageButton
+            android:id="@+id/EKTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:onClick="firstImageButton"
+            android:src="@mipmap/ic3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/titlektp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="E-KTP"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.3">
+
+        <ImageButton
+            android:id="@+id/PERBANKAN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:onClick="firstImageButton"
+            android:src="@mipmap/ic5"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/perbankan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="PERBANKAN"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.3">
+
+        <ImageButton
+            android:id="@+id/PERIZINAN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:onClick="firstImageButton"
+            android:src="@mipmap/ic8"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/perizinan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="KEPOLISIAN"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lineGrid3"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lineGrid2"
+        android:layout_marginTop="30dp"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.1">
+
+        <ImageButton
+            android:id="@+id/PAJAK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:onClick="firstImageButton"
+            android:src="@mipmap/ic2"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/PAJAK2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="PAJAK"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.2">
+
+        <ImageButton
+            android:id="@+id/WISATA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:onClick="firstImageButton"
+            android:src="@mipmap/ic6"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/WISATA2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="WISATA"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.1">
+
+        <ImageButton
+            android:id="@+id/ib_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:src="@mipmap/ic_logout"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/lgouttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="LOGOUT"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+    </ScrollView>

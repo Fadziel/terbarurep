@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "106793990273",
+    "firebase_url": "https://appubblik-9c8ec.firebaseio.com",
+    "project_id": "appubblik-9c8ec",
+    "storage_bucket": "appubblik-9c8ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106793990273:android:74c6d5fe30444aa1",
+        "android_client_info": {
+          "package_name": "com.skripsi23.appubblik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106793990273-n2rk81jsmh9d4c0d097s5l3ujnt3o3v3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skripsi23.appubblik",
+            "certificate_hash": "1ca66d1e8e581756337dc2ba2018276a5441cdbe"
+          }
+        },
+        {
+          "client_id": "106793990273-krkdlfhhuhoh39g5bg5pj3f9cdguk7gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFnLFk8FOIY2nPqoweWy3bOo40raAreLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106793990273-krkdlfhhuhoh39g5bg5pj3f9cdguk7gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrs"
+    tools:context="com.skripsi23.appubblik.RSUD">
+
+    <!-- Grid Satu -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/linearLayout2"
+        android:layout_width="388dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="5dp"
+        android:paddingTop="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <ImageButton
+            android:id="@+id/BPJS"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/cardview_light_background"
+            android:contextClickable="true"
+            app:srcCompat="@mipmap/kotak"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageButton
+            android:id="@+id/dpraktik"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/cardview_light_background"
+            app:srcCompat="@mipmap/kotak"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageButton
+            android:id="@+id/csrs"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@mipmap/kotak"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </LinearLayout>
+
+    <!-- tittle -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/linearLayout5"
+        android:layout_width="388dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="5dp"
+        android:paddingTop="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <TextView
+            android:id="@+id/titlektp"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Informasi BPJS"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textColorLink="@color/cardview_light_background"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titlektp"
+            android:layout_width="79dp"
+            android:layout_height="81dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Informasi Praktik Dokter Spesialis"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textColorLink="@color/cardview_light_background"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txtCS_rsud"
+            android:layout_width="79dp"
+            android:layout_height="81dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Customer Service"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textColorLink="@color/cardview_light_background"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <!-- Grid Dua -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/linearLayout"
+        android:layout_width="388dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="158dp"
+        android:paddingRight="5dp"
+        android:paddingTop="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <ImageButton
+            android:id="@+id/rinap"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/cardview_light_background"
+            android:contextClickable="true"
+            app:srcCompat="@mipmap/kotak"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageButton
+            android:id="@+id/ambul"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/cardview_light_background"
+            app:srcCompat="@mipmap/kotak"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageButton
+            android:id="@+id/wbesuk"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@mipmap/kotak"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </LinearLayout>
+
+    <!-- tittle -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/linearLayout"
+        android:layout_width="388dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="158dp"
+        android:paddingRight="5dp"
+        android:paddingTop="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <TextView
+            android:id="@+id/titlektp"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Informasi    Rawat Jalan"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textColorLink="@color/cardview_light_background"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titlektp"
+            android:layout_width="79dp"
+            android:layout_height="80dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Ambulans call emergency"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textColorLink="@color/cardview_light_background"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/titlektp"
+            android:layout_width="79dp"
+            android:layout_height="82dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Informasi Waktu Besuk"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textColorLink="@color/cardview_light_background"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <!-- Grid Tiga -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/linearLayout4"
+        android:layout_width="388dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="265dp"
+        android:paddingRight="5dp"
+        android:paddingTop="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <ImageButton
+            android:id="@+id/Gmap"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/cardview_light_background"
+            android:contextClickable="true"
+            app:srcCompat="@mipmap/kotak"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageButton
+            android:id="@+id/kamar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/cardview_light_background"
+            app:srcCompat="@mipmap/kotak"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageButton
+            android:id="@+id/tatapas"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@mipmap/kotak"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </LinearLayout>
+
+    <!-- tittle -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/linearLayout3"
+        android:layout_width="388dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="265dp"
+        android:paddingRight="5dp"
+        android:paddingTop="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <TextView
+            android:id="@+id/titlekt4p"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Informasi    Lokasi"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textColorLink="@color/cardview_light_background"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/titlektp3"
+            android:layout_width="79dp"
+            android:layout_height="82dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Informasi Ketersediaan Kamar"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textColorLink="@color/cardview_light_background"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titlektp2"
+            android:layout_width="79dp"
+            android:layout_height="80dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Tata Tertib Penunggu Pasien"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textColorLink="@color/cardview_light_background"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>
